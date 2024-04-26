@@ -29,7 +29,7 @@ svn_export "master" "net/vlmcsd" "feeds/packages/net/vlmcsd" "https://github.com
 svn_export "master" "package/emortal" "package/emortal" "https://github.com/immortalwrt/immortalwrt"
 
 # turboacc 补丁
-curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+#curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 # 安装插件
 ./scripts/feeds update -l
 ./scripts/feeds install -a
