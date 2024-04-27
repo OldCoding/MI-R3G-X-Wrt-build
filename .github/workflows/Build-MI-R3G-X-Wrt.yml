@@ -169,7 +169,7 @@ jobs:
         cat >> .config <<EOF
         # CONFIG_PACKAGE_luci-app-unblockmusic is net set
         # CONFIG_PACKAGE_dnsmasq is not set
-        CONFIG_PACKAGE_dnsmasq-full is not set
+        CONFIG_PACKAGE_dnsmasq-full=y
         CONFIG_PACKAGE_bind-host=y
         CONFIG_PACKAGE_ddns-scripts_aliyun=y
         CONFIG_PACKAGE_ddns-scripts-dnspod=y
